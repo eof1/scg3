@@ -28,5 +28,6 @@
 
 #include "../extern/stb_image/stb_image.h"
 
+#include "../extern/stb_image/stb_image_write.h"
 
 #endif /* SCG_STB_IMAGE_H_ */
