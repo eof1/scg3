@@ -10,3 +10,7 @@
 /build-output
 /cmake-build-debug
 /.idea
+/.vs/*
+*.orig
+*.vcxproj.user
+/out/*
