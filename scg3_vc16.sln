@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scg3_vc11", "scg3\scg3_vc11.vcxproj", "{A9952A6F-A0A0-4074-8A48-D6D286A5144D}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scg3_vc16", "scg3\scg3_vc16.vcxproj", "{A9952A6F-A0A0-4074-8A48-D6D286A5144D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scg3_example_vc11", "scg3_example\scg3_example_vc11.vcxproj", "{368CC070-6FCC-4720-BCF1-A58293D0908A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scg3_example_vc16", "scg3_example\scg3_example_vc16.vcxproj", "{368CC070-6FCC-4720-BCF1-A58293D0908A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A9952A6F-A0A0-4074-8A48-D6D286A5144D} = {A9952A6F-A0A0-4074-8A48-D6D286A5144D}
 	EndProjectSection
@@ -25,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A208293-97F5-4B70-AB28-9AB986E19DC1}
 	EndGlobalSection
 EndGlobal

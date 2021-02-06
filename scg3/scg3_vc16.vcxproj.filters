@@ -1001,6 +1001,6 @@
     <None Include="extern\glm\gtc\ulp.inl">
       <Filter>Headerdateien</Filter>
     </None>
-    <None Include="..\scg3_example\scg3_example_vc11.vcxproj" />
+    <None Include="..\scg3_example\scg3_example_vc16.vcxproj" />
   </ItemGroup>
 </Project>

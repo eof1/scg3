@@ -13,21 +13,21 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A9952A6F-A0A0-4074-8A48-D6D286A5144D}</ProjectGuid>
     <RootNamespace>scg3</RootNamespace>
-    <ProjectName>scg3_vc11</ProjectName>
+    <ProjectName>scg3_vc16</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -305,7 +305,7 @@
     <ClCompile Include="src_ext\StereoRendererPassive.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\scg3_example\scg3_example_vc11.vcxproj" />
+    <None Include="..\scg3_example\scg3_example_vc16.vcxproj" />
     <None Include="extern\glfw\readme.html" />
     <None Include="extern\glm\core\func_common.inl" />
     <None Include="extern\glm\core\func_exponential.inl" />
