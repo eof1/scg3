@@ -257,7 +257,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="extern\glew\src\glew.c" />
-    <ClCompile Include="extern\stb_image\stb_image.c" />
     <ClCompile Include="src\Animation.cpp" />
     <ClCompile Include="src\BumpMapCore.cpp" />
     <ClCompile Include="src\Camera.cpp" />
@@ -285,6 +284,7 @@
     <ClCompile Include="src\RenderState.cpp" />
     <ClCompile Include="src\RenderTraverser.cpp" />
     <ClCompile Include="src\scg_internals.cpp" />
+    <ClCompile Include="src\scg_stb_image.cpp" />
     <ClCompile Include="src\scg_utilities.cpp" />
     <ClCompile Include="src\ShaderCore.cpp" />
     <ClCompile Include="src\ShaderCoreFactory.cpp" />
